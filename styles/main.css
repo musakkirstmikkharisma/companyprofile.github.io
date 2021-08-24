@@ -1,0 +1,143 @@
+body {
+  background-color: #fff;
+  font-family: 'Assistant', sans-serif;
+  background-color: #e6e6e6;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.nav-link {
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff !important;
+  margin-right: 15px;
+}
+
+.nav-link:hover {
+  color: #AAA5A5 !important;
+}
+
+.carousel-item {
+  background: no-repeat scroll center scroll;
+  background-size: cover;
+}
+
+.carousel-item::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #000;
+  opacity: 0.7;
+}
+
+.carousel-caption {
+  bottom: 150px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.carousel-caption h5 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.carousel-caption h5 p {
+  font-size: 18px;
+  top: 2rem;
+}
+
+.slider-btn {
+  margin-top: 30px;
+}
+
+.slider-btn .btn {
+  background-color: #FFCC29;
+  color: white;
+  font-weight: 700;
+}
+
+.slider-btn .btn:hover {
+  background-color: #D6B23F;
+  color: white;
+}
+
+.btn-kirim {
+  background-color: #FFCC29;
+  color: white;
+  font-weight: 700;
+}
+
+.btn-kirim:hover {
+  background-color: #D6B23F;
+  color: white;
+}
+
+.card-body {
+  background-color: #FFCC29;
+}
+
+.card-title {
+  margin: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-body ul li {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.btn-learnmore {
+  font-weight: bold;
+  background-color: #000;
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+}
+
+.about {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 20px;
+}
+
+.about span {
+  font-weight: bold;
+}
+
+.project {
+  font-weight: bold;
+  padding: 15px;
+}
+
+.card-project p {
+  font-weight: 600;
+  color: #918f8f;
+}
+
+.contact {
+  background-color: white;
+  height: 510px;
+  -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+}
+
+.footer {
+  padding-top: 60px;
+}
+
+.footer .copy {
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */
